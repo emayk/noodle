@@ -1,0 +1,16 @@
+resources:
+- 00-namespace.yaml
+- 01-service-account.yaml
+- 02-service-mysql.yaml
+- 03-php-service.yaml
+- 04-nginx-service.yaml
+- 05-code-volume.yaml
+- 06-nginx-configMap.yaml
+- 07-mysql-configmap.yaml
+- 10-php-deployment.yaml
+- 11-nginx-deployment.yaml
+- 12-mysql-statefullset.yaml
+- 14-mysql-pod.yaml
+# - 20-LB-service.yaml
+  
+  
